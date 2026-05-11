@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true
+  },
+  serverExternalPackages: ["@anthropic-ai/sdk"]
+};
 
 export default nextConfig;

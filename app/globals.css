@@ -723,6 +723,30 @@ a { color: inherit; text-decoration: none; }
 
 .button--compact { min-height: 42px; padding: 0 0.95rem; border-radius: 14px; }
 
+.integration-line {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(21, 34, 69, 0.08);
+  border-radius: 22px;
+  background: var(--surface-card-muted);
+}
+
+.integration-line p { margin: 0.25rem 0 0; color: var(--muted); line-height: 1.6; }
+
+.env-box {
+  padding: 1rem;
+  border: 1px solid rgba(21, 34, 69, 0.08);
+  border-radius: 22px;
+  background: var(--surface-card-muted);
+}
+
+.env-box p { margin: 0.25rem 0 0; color: var(--muted); line-height: 1.6; }
+
+.empty-state--compact { min-height: 200px; }
+
 /* Themes */
 html[data-theme="warm"], html[data-theme="light"] { color-scheme: light; }
 
